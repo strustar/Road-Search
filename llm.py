@@ -500,7 +500,7 @@ def main():
 
         # 샤드 로드
         st.subheader("📂 임베딩 로드")
-        base_dir = Path(st.text_input("샤드 폴더", value=".embeddings_shards"))
+        base_dir = Path(st.text_input("샤드 폴더", value="embeddings_shards"))
         if not base_dir.exists():
             st.error("❌ 폴더가 존재하지 않습니다!")
             st.stop()

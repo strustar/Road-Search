@@ -1,0 +1,20 @@
+{
+  "shards": {
+    "shard_2019년": {
+      "dense": {
+        "type": "npz",
+        "file": "shard_2019년.npz"
+      },
+      "sparse": {
+        "type": "csr",
+        "file": "shard_2019년.sparse.csr.npz",
+        "nnz": 52175
+      },
+      "chunks": "shard_2019년.chunks.jsonl",
+      "count": 590,
+      "dim": 1024,
+      "dtype": "float16",
+      "saved_at": "2025-10-24 15:30:36"
+    }
+  }
+}
